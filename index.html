@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>100vh-02</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="bg_pc bg_sp bg_01">
+            <h1>わーい</h1>
+        </div>
+        <div class="bg_pc bg_sp bg_02">
+            <h1>わーい</h1>
+        </div>
+        <script>
+            $(document).ready(function(){
+                var heightSize = $(window).height();
+                $('.bg_sp').height(heightSize); 
+            });
+        </script>
+    </body>
+</html>

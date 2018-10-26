@@ -1,0 +1,23 @@
+body, h1{
+    margin: 0;
+}
+h1{
+    font-family: sans-serif;
+    padding-top: 47.5vh;
+    font-size: 5vh;
+    text-align: center;
+    color: #fff;
+}
+@media screen and (min-width:480px) { 
+    .bg-pc{
+        height: 100vh !important;
+    }
+}
+.bg_01{
+    background-image: url(./kamikochi01.jpg);
+    background-size: cover;
+}
+.bg_02{
+    background-image: url(./kamikochi02.jpg);
+    background-size: cover;
+}
