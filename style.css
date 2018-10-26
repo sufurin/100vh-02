@@ -3,12 +3,15 @@ body, h1{
 }
 h1{
     font-family: sans-serif;
-    padding-top: 47.5vh;
-    font-size: 5vh;
     text-align: center;
     color: #fff;
+    font-size: 40px;
+    vertical-align: bottom;
 }
-@media screen and (min-width:480px) { 
+@media screen and (min-width: 960px) {
+    h1{
+        padding-top: 47.5vh;
+    }
     .bg-pc{
         height: 100vh !important;
     }
