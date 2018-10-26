@@ -17,8 +17,10 @@
             $(document).ready(function(){
                 var heightSize = $(window).height();
                 var titlePosition = heightSize / 100 * 47.5;
+                var titleSize = heightSize / 100 * 5;
                 $('.bg_sp').height(heightSize); 
                 $('.h1_sp').css("padding-top", titlePosition); 
+                $('.h1_sp').css("font-size", titleSize + "px"); 
             });
         </script>
     </body>
